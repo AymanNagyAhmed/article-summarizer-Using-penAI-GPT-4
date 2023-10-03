@@ -1,5 +1,8 @@
 # Article Extractor and Summarizer Using OpenAI GPT-4
 
-```pnpm i```
+- Copy .env.example and rename it to .env
+- Put your environment variables
+- install packages using pnpm
+```pnpm i"```
 
-[API](https://rapidapi.com/restyler/api/article-extractor-and-summarizer/)
+[Iam using this API in this project](https://rapidapi.com/restyler/api/article-extractor-and-summarizer/)
