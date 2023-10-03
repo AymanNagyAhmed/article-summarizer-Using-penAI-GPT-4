@@ -1,9 +1,19 @@
+import Demo from "./components/Demo/Demo";
+import Hero from "./components/Hero/Hero";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <main>
+        <div className="main">
+          <div className="gradient"></div>
+        </div>
+        <div className="app">
+          <Hero/>
+          <Demo />
+        </div>
+      </main>
     </>
   );
 }
